@@ -1,0 +1,6 @@
+{
+  "name": "AutosVerify Bot",
+  "description": "A Telegram verification bot with web admin panel, Google Drive backups, and document generation features.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}

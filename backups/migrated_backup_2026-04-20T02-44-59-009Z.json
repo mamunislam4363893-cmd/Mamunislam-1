@@ -1,0 +1,473 @@
+{
+  "users": {
+    "999999": {
+      "id": 999999,
+      "balance": 40,
+      "balance_tokens": 40,
+      "joinedAt": 1776650965798,
+      "referrer": null,
+      "lastDaily": 0,
+      "tasksDone": [],
+      "referralCount": 0,
+      "referredBy": null,
+      "username": null,
+      "successfulVerifications": 0,
+      "failedVerifications": 0,
+      "cardsPurchased": 0,
+      "blocked": false,
+      "adminVerified": false,
+      "language": "en",
+      "lastActive": 1776653081271,
+      "dailyStreak": 0,
+      "usd": 0,
+      "history": [
+        {
+          "type": "temp_mail",
+          "amount": -10,
+          "date": "2026-04-20T02:42:27.505Z",
+          "reward": "-10 Tokens",
+          "detail": "5ma0ht@deltajohnsons.com"
+        },
+        {
+          "type": "bonus",
+          "amount": 50,
+          "reward": "+50 Tokens",
+          "date": 1776650965798,
+          "detail": "Welcome Bonus"
+        }
+      ],
+      "lastName": "",
+      "tokens": 40,
+      "referralCode": "ref_MJAG6N",
+      "joinedChannel": false,
+      "channelJoined": false,
+      "joinedGroup": false,
+      "groupJoined": false,
+      "verified": false
+    }
+  },
+  "groups": {},
+  "codes": {},
+  "settings": {
+    "dailyBonus": 50,
+    "refBonus": 50,
+    "taskReward": 10,
+    "costs": {
+      "spotify": 50,
+      "youtube": 50,
+      "teacher": 100,
+      "gpt": 100,
+      "military": 100,
+      "gemini": 50
+    },
+    "transferCost": 5,
+    "botUsername": "MockBot",
+    "paymentMethods": {
+      "crypto": {
+        "enabled": true,
+        "name": "Cryptocurrency (USDT TRC20)",
+        "address": "YOUR_USDT_TRC20_ADDRESS_HERE",
+        "ratePerCredit": 0.01
+      }
+    },
+    "groupRules": {
+      "welcome": true,
+      "cleanService": true,
+      "allowLinks": false,
+      "allowPhotos": true,
+      "allowFiles": true,
+      "allowVoice": true,
+      "allowForward": true,
+      "blockEmails": true,
+      "blockCC": true,
+      "blockBusiness": true
+    }
+  },
+  "tasks": {
+    "task_youtube": {
+      "name": "Youtube Channel",
+      "url": "https://www.youtube.com/@MamunIslamyts",
+      "reward": 10,
+      "gems": 1
+    },
+    "task_telegram_group": {
+      "name": "Telegram Group",
+      "url": "https://t.me/AutosVerifyCh",
+      "reward": 10,
+      "gems": 1
+    },
+    "task_telegram_channel": {
+      "name": "Telegram Channel",
+      "url": "https://t.me/AutosVerify",
+      "reward": 10,
+      "gems": 1
+    }
+  },
+  "cards": {
+    "gemini": [],
+    "chatgpt": [],
+    "spotify": []
+  },
+  "cardPrices": {
+    "gemini": 150,
+    "chatgpt": 200,
+    "spotify": 50
+  },
+  "serviceNames": {},
+  "scheduledBroadcasts": [],
+  "tickets": [],
+  "payments": [],
+  "transactions": [],
+  "serverLogs": [],
+  "vpnAccounts": {
+    "nordvpn": [],
+    "expressvpn": [],
+    "surfshark": [],
+    "cyberghost": [],
+    "protonvpn": []
+  },
+  "vpnPrices": {
+    "nordvpn": 100,
+    "expressvpn": 120,
+    "surfshark": 80,
+    "cyberghost": 70,
+    "protonvpn": 90
+  },
+  "vpnServiceNames": {
+    "nordvpn": "🛡️ NordVPN",
+    "expressvpn": "⚡ ExpressVPN",
+    "surfshark": "🦈 Surfshark",
+    "cyberghost": "👻 CyberGhost",
+    "protonvpn": "🔒 ProtonVPN"
+  },
+  "serviceCategories": [
+    {
+      "id": "virtual-cards",
+      "name": "Virtual Cards",
+      "description": "API Keys & Accounts",
+      "icon": "fa-credit-card",
+      "color": "from-orange-500 to-red-600",
+      "type": "card",
+      "order": 1
+    },
+    {
+      "id": "vpn",
+      "name": "VPN Services",
+      "description": "VPN Accounts & Keys",
+      "icon": "fa-shield-alt",
+      "color": "from-cyan-500 to-blue-600",
+      "type": "account",
+      "order": 2
+    }
+  ],
+  "serviceItems": {
+    "gemini": {
+      "categoryId": "virtual-cards",
+      "type": "apikey",
+      "name": "Gemini",
+      "icon": "fa-brain",
+      "color": "from-purple-500 to-pink-600",
+      "price": 150
+    },
+    "chatgpt": {
+      "categoryId": "virtual-cards",
+      "type": "apikey",
+      "name": "ChatGPT",
+      "icon": "fa-robot",
+      "color": "from-green-500 to-emerald-600",
+      "price": 200
+    },
+    "4jibit": {
+      "categoryId": "virtual-cards",
+      "type": "apikey",
+      "name": "4jibit",
+      "icon": "fa-key",
+      "color": "from-blue-500 to-indigo-600",
+      "price": 100
+    },
+    "spotify": {
+      "categoryId": "virtual-cards",
+      "type": "account",
+      "name": "Spotify",
+      "icon": "fa-music",
+      "color": "from-green-400 to-green-600",
+      "price": 50
+    },
+    "nordvpn": {
+      "categoryId": "vpn",
+      "type": "account",
+      "name": "NordVPN",
+      "icon": "fa-shield-alt",
+      "color": "from-blue-600 to-blue-800",
+      "price": 100
+    },
+    "expressvpn": {
+      "categoryId": "vpn",
+      "type": "account",
+      "name": "ExpressVPN",
+      "icon": "fa-bolt",
+      "color": "from-red-500 to-red-700",
+      "price": 120
+    },
+    "surfshark": {
+      "categoryId": "vpn",
+      "type": "account",
+      "name": "Surfshark",
+      "icon": "fa-water",
+      "color": "from-cyan-500 to-teal-600",
+      "price": 80
+    },
+    "cyberghost": {
+      "categoryId": "vpn",
+      "type": "account",
+      "name": "CyberGhost",
+      "icon": "fa-ghost",
+      "color": "from-yellow-500 to-orange-600",
+      "price": 70
+    },
+    "protonvpn": {
+      "categoryId": "vpn",
+      "type": "account",
+      "name": "ProtonVPN",
+      "icon": "fa-lock",
+      "color": "from-purple-600 to-indigo-800",
+      "price": 90
+    }
+  },
+  "adminSettings": {
+    "supportCost": 10,
+    "gmailCost": 20,
+    "tempMailCost": 10,
+    "hotmailCost": 25,
+    "studentEmailCost": 50,
+    "creditRates": {
+      "crypto": 0.01,
+      "bkash": 1,
+      "nagad": 1
+    },
+    "welcomeCredits": 50,
+    "requireTelegram": false,
+    "groupManagement": {
+      "autoDeleteSystemMessages": true,
+      "deleteJoinMessages": true,
+      "deleteLeaveMessages": true,
+      "deletePinMessages": false,
+      "deleteVoiceChatStarted": false,
+      "deleteVoiceChatEnded": false,
+      "deleteVideoChatStarted": false,
+      "deleteVideoChatEnded": false,
+      "deleteProximityAlertTriggered": false,
+      "deleteAutoDeleteTimerChanged": false,
+      "deleteMigrateToChat": false,
+      "deleteMigrateFromChat": false,
+      "deleteChannelChatCreated": false,
+      "deleteSupergroupChatCreated": false,
+      "deleteDeleteGroupPhoto": false,
+      "deleteDeleteGroupStickerSet": false,
+      "deleteGroupPhotoChanged": false,
+      "deleteGroupStickerSetChanged": false,
+      "deleteTitleChanged": false,
+      "deleteDescriptionChanged": false,
+      "deletePinnedMessage": false,
+      "deleteGeneralForumTopicHidden": false,
+      "deleteGeneralForumTopicUnhidden": false,
+      "deleteForumTopicCreated": false,
+      "deleteForumTopicEdited": false,
+      "deleteForumTopicClosed": false,
+      "deleteForumTopicReopened": false,
+      "deleteVideoChatScheduled": false,
+      "deleteVideoChatParticipantsInvited": false,
+      "deleteWebAppDataSent": false,
+      "deleteWebAppDataReceived": false,
+      "deletePassportDataSent": false,
+      "deletePassportDataReceived": false,
+      "deleteProximityAlertTriggeredIn": false,
+      "deleteProximityAlertTriggeredOut": false,
+      "deleteBoostAdded": false,
+      "deleteChatBackgroundSet": false,
+      "deleteForumTopicIsGeneral": false,
+      "deleteGiveawayCreated": false,
+      "deleteGiveawayCompleted": false,
+      "deleteGiveawayWinners": false,
+      "deleteGiveawayPrizeStars": false,
+      "deletePaidMediaPurchased": false,
+      "deleteUsersShared": false,
+      "deleteChatShared": false,
+      "deleteConnectedWebsite": false,
+      "deleteWriteAccessAllowed": false,
+      "deletePassportData": false,
+      "deleteForumTopic": false,
+      "deleteWebAppData": false,
+      "deleteMessageAutoDeleteTimerChanged": false,
+      "deleteChatBackground": false,
+      "deleteVideoMessage": false,
+      "deleteVoiceMessage": false,
+      "deleteContact": false,
+      "deleteLocation": false,
+      "deleteVenue": false,
+      "deletePoll": false,
+      "deleteDice": false,
+      "deleteGame": false,
+      "deleteInvoice": false,
+      "deleteSuccessfulPayment": false,
+      "deleteSuccessfulPaymentStars": false,
+      "deleteRefundedPayment": false,
+      "deletePaymentRefunded": false,
+      "deleteGiftSent": false,
+      "deleteGiftReceived": false,
+      "deleteStarGiftSent": false,
+      "deleteStarGiftReceived": false,
+      "deleteStarTransaction": false,
+      "deleteStarTransactions": false,
+      "deleteChatJoinRequest": false,
+      "deleteChatMemberUpdated": false,
+      "deleteChatMember": false,
+      "deleteChatMembers": false,
+      "deleteChatMemberCount": false,
+      "deleteChatMemberStatus": false,
+      "deleteChatMemberUsername": false,
+      "deleteChatMemberFirstName": false,
+      "deleteChatMemberLastName": false,
+      "deleteChatMemberLanguageCode": false,
+      "deleteChatMemberIsBot": false,
+      "deleteChatMemberIsPremium": false,
+      "deleteChatMemberAddedToAttachmentMenu": false,
+      "deleteChatMemberCanJoinGroups": false,
+      "deleteChatMemberCanReadAllGroupMessages": false,
+      "deleteChatMemberSupportsInlineQueries": false
+    },
+    "dbAutoBackup": {
+      "enabled": false,
+      "backupDays": 1,
+      "backupTime": "06:00",
+      "keep": 1,
+      "lastBackupAt": 1776652249917,
+      "lastBackupFile": "manual_backup_1776652249917.json",
+      "nextBackupAt": 0
+    }
+  },
+  "featureFlags": {
+    "tempMail": true,
+    "virtualNumber": true,
+    "premiumMail": true,
+    "accountsShop": true,
+    "cardsVcc": true,
+    "joinRequired": false,
+    "home_verify": true,
+    "home_mail": true,
+    "home_number": true,
+    "home_gemini": true,
+    "home_chatgpt": true,
+    "home_accounts": true,
+    "home_vcc": true,
+    "home_premiumMail": true,
+    "aiPhotoGen": true,
+    "aiVideoGen": true,
+    "bgRemover": true,
+    "videoDownloader": true,
+    "vpnServices": true,
+    "dailyCheckin": true,
+    "tasksSystem": true,
+    "redeemCodes": true,
+    "referralSystem": true,
+    "quizFeature": true,
+    "exchange": true,
+    "home_aiPhoto": true,
+    "home_aiVideo": true,
+    "home_bgRemover": true,
+    "home_videoDownload": true,
+    "home_vpn": true,
+    "home_accountsShop": true,
+    "home_vccShop": true,
+    "admin_manage_user": true,
+    "admin_manage_cards": true,
+    "admin_manage_apps": true,
+    "admin_manage_vpn": true,
+    "admin_manage_codes": true,
+    "admin_manage_tasks": true,
+    "admin_manage_costs": true,
+    "admin_payments": true,
+    "admin_backup": true,
+    "admin_settings": true,
+    "admin_stats": true,
+    "admin_broadcast": true,
+    "admin_upload_file": true,
+    "admin_group_controller": true,
+    "admin_number_services": true,
+    "buy_cards": true,
+    "buy_vpn": true,
+    "buy_premium_app": true,
+    "verification": true,
+    "support": true,
+    "referral": true,
+    "daily_bonus": true,
+    "tasks": true,
+    "transfer": true,
+    "redeem_code": true,
+    "number_services": true
+  },
+  "numberServices": {},
+  "services": {},
+  "shopItems": {},
+  "itemSales": {},
+  "providers": {},
+  "broadcasts": [],
+  "pendingDeposits": [],
+  "cryptoMethods": {
+    "binance": {
+      "name": "Binance Pay",
+      "details": "39996280",
+      "email": "boyearn705@gmail.com",
+      "qr": "https://api.qrserver.com/v1/create-qr-code/?size=180x180&data=39996280",
+      "status": "active"
+    },
+    "bitget": {
+      "name": "Bitget",
+      "details": "748839201",
+      "email": "",
+      "qr": "",
+      "status": "active"
+    },
+    "gateio": {
+      "name": "Gate.io",
+      "details": "12345678",
+      "email": "",
+      "qr": "",
+      "status": "active"
+    },
+    "usdt": {
+      "name": "Web3 (USDT TRC20)",
+      "details": "TR7NHqkeu71v7otNDV352u653nqYBg7KkZ",
+      "email": "",
+      "qr": "",
+      "status": "active"
+    },
+    "bitcoin": {
+      "name": "Web3 (Bitcoin)",
+      "details": "1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa",
+      "email": "",
+      "qr": "",
+      "status": "active"
+    }
+  },
+  "sellingRewards": {
+    "Gmail": 50,
+    "TikTok": 100,
+    "Facebook": 80,
+    "Telegram": 120,
+    "Discord": 150,
+    "Other": 40,
+    "2faMultiplier": 1.5
+  },
+  "mailSessions": {
+    "mail_temp_1776652945422_999999": {
+      "email": "5ma0ht@deltajohnsons.com",
+      "password": "zxx28g",
+      "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJpYXQiOjE3NzY2NTI5NDcsInJvbGVzIjpbIlJPTEVfVVNFUiJdLCJhZGRyZXNzIjoiNW1hMGh0QGRlbHRham9obnNvbnMuY29tIiwiaWQiOiI2OWU1OTI5MjZhYzY5NGU0YjUwNDUwYTMiLCJtZXJjdXJlIjp7InN1YnNjcmliZSI6WyIvYWNjb3VudHMvNjllNTkyOTI2YWM2OTRlNGI1MDQ1MGEzIl19fQ.20rJ0QBexbYy2B1CQa9Eaxe0POtvZUrHzVYp_kaZy5VSgu5C9suDv6PEn64-fxJlZOs6QcSbZ5ERNgq5X4BKUA",
+      "provider": "mail.tm",
+      "userId": 999999,
+      "createdAt": 1776652947505,
+      "service": "temp"
+    }
+  }
+}
